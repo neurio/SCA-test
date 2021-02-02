@@ -10,6 +10,7 @@ jobs:
       - checkout
       - sonarcloud/scan
 
+      
 
 workflows:
   main:
