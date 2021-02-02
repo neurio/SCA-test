@@ -10,10 +10,11 @@ jobs:
       - checkout
       - sonarcloud/scan
 
-      
+
 
 workflows:
   main:
     jobs:
       - build:
           context: SonarCloud
+            
